@@ -142,7 +142,7 @@ export function ExpenseForm({ categories, onSave, editingExpense, onCancelEdit }
               value={form.category}
               onChange={handleChange('category')}
             >
-              <option value="">Select Category</option>
+              <option value="">None</option>
               {categories.map((category) => (
                 <option key={category} value={category}>
                   {category}
