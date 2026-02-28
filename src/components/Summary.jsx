@@ -25,7 +25,7 @@ export function Summary({ total, count, currentFilter }) {
       </div>
       <div>
         <span className="summary-pill">
-          View:{' '}
+          {' '}
           {currentFilter === 'All' ? 'All' : currentFilter}
         </span>
       </div>
